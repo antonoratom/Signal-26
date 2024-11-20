@@ -1,0 +1,525 @@
+/* --type-h5--font-size-lg: 1.25rem;
+  --type-h5--font-size-md: 1.25rem;
+  --type-h5--font-size-sm: 1.25rem;
+  --type-h5--font-size-xs: 1.25rem;
+  --type-h6--font-size-lg: 1.125rem;
+  --type-h6--font-size-md: 1.125rem;
+  --type-h6--font-size-sm: 1.125rem;
+  --type-h6--font-size-xs: 1.125rem;
+  --type-paragraph-24--font-size-lg: 1.5rem;
+  --type-paragraph-24--font-size-md: 1.5rem;
+  --type-paragraph-24--font-size-sm: 1.5rem;
+  --type-paragraph-24--font-size-xs: 1.5rem; */
+
+:root {
+  --spacing-layout--container-max-width-90: 90rem;
+
+  --type-body--font-size-lg: 1rem;
+  --type-body--font-size-md: 1rem;
+  --type-body--font-size-sm: 1rem;
+  --type-body--font-size-xs: 1rem;
+
+  --type-paragraph-14--font-size-lg: 0.875rem;
+  --type-paragraph-14--font-size-md: 0.875rem;
+  --type-paragraph-14--font-size-sm: 0.875rem;
+  --type-paragraph-14--font-size-xs: 0.875rem;
+
+  --type-paragraph-18--font-size-lg: 1.125rem;
+  --type-paragraph-18--font-size-md: 1.125rem;
+  --type-paragraph-18--font-size-sm: 1.125rem;
+  --type-paragraph-18--font-size-xs: 1.125rem;
+
+  --type-eyebrow--font-size-lg: 1.25rem;
+  --type-eyebrow--font-size-md: 1.25rem;
+  --type-eyebrow--font-size-sm: 1rem;
+  --type-eyebrow--font-size-xs: 1rem;
+
+  --type-h1--font-size-lg: 2.6rem;
+  --type-h1--font-size-md: 2.6rem;
+  --type-h1--font-size-sm: 2.6rem;
+  --type-h1--font-size-xs: 2.4rem;
+
+  --type-h2--font-size-lg: 2.6rem;
+  --type-h2--font-size-md: 2.6rem;
+  --type-h2--font-size-sm: 2.6rem;
+  --type-h2--font-size-xs: 2.4rem;
+
+  --type-h3--font-size-lg: 2rem;
+  --type-h3--font-size-md: 2rem;
+  --type-h3--font-size-sm: 2rem;
+  --type-h3--font-size-xs: 2rem;
+
+  --type-h4--font-size-lg: 1.5rem;
+  --type-h4--font-size-md: 1.25rem;
+  --type-h4--font-size-sm: 1.25rem;
+  --type-h4--font-size-xs: 1.5rem;
+
+  --component-button--border-radius: 44rem;
+  --component-card--border-radius: 1rem;
+  --component-card--card-body-padding-lg: 1rem;
+  --component-card--card-body-padding-sm: 0.75rem;
+
+  --component-input--bottom-margin: 1rem;
+  --component-input--border-radius: 0.5rem;
+  --component-input--font-size: 1rem;
+  --component-input-label--font-size: 0.9rem;
+
+  --spacing-utility-rem--0-25rem: 0.25rem;
+  --spacing-utility-rem--0-5rem: 0.5rem;
+  --spacing-utility-rem--0-75rem: 0.75rem;
+  --spacing-utility-rem--1rem: 1rem;
+  --spacing-utility-rem--1-125rem: 1.125rem;
+  --spacing-utility-rem--1-25rem: 1.25rem;
+  --spacing-utility-rem--1-5rem: 1.5rem;
+  --spacing-utility-rem--2rem: 2rem;
+  --spacing-utility-rem--2-5rem: 2.5rem;
+  --spacing-utility-rem--3rem: 3rem;
+  --spacing-utility-rem--3-5rem: 3.5rem;
+  --spacing-utility-rem--4rem: 4rem;
+  --spacing-utility-rem--5rem: 5rem;
+  --spacing-utility-rem--6rem: 6rem;
+  --spacing-utility-rem--7rem: 7rem;
+  --spacing-utility-rem--8rem: 8rem;
+}
+
+@media screen and (min-width: 1440px) {
+  :root {
+    /* values to calculate */
+    --spacing-layout--container-max-width-90: 160rem;
+
+    --type-body--font-size-lg: 1.78rem;
+    --type-body--font-size-md: 1.78rem;
+    --type-body--font-size-sm: 1.78rem;
+    --type-body--font-size-xs: 1.78rem;
+
+    --type-paragraph-14--font-size-lg: 1.56rem;
+    --type-paragraph-14--font-size-md: 1.56rem;
+    --type-paragraph-14--font-size-sm: 1.56rem;
+    --type-paragraph-14--font-size-xs: 1.56rem;
+
+    --type-paragraph-18--font-size-lg: 2rem;
+    --type-paragraph-18--font-size-md: 2rem;
+    --type-paragraph-18--font-size-sm: 2rem;
+    --type-paragraph-18--font-size-xs: 2rem;
+
+    --type-eyebrow--font-size-lg: 2.22rem;
+    --type-eyebrow--font-size-md: 2.22rem;
+    --type-eyebrow--font-size-sm: 1.78rem;
+    --type-eyebrow--font-size-xs: 1.78rem;
+
+    --type-h1--font-size-lg: 4.62rem;
+    --type-h1--font-size-md: 4.62rem;
+    --type-h1--font-size-sm: 4.62rem;
+    --type-h1--font-size-xs: 4.27rem;
+
+    --type-h2--font-size-lg: 4.62rem;
+    --type-h2--font-size-md: 4.62rem;
+    --type-h2--font-size-sm: 4.62rem;
+    --type-h2--font-size-xs: 4.27rem;
+
+    --type-h3--font-size-lg: 3.56rem;
+    --type-h3--font-size-md: 3.56rem;
+    --type-h3--font-size-sm: 3.56rem;
+    --type-h3--font-size-xs: 3.56rem;
+
+    --type-h4--font-size-lg: 2.67rem;
+    --type-h4--font-size-md: 2.22rem;
+    --type-h4--font-size-sm: 2.22rem;
+    --type-h4--font-size-xs: 2.67rem;
+
+    --component-button--border-radius: 78.22rem;
+    --component-card--border-radius: 1.78rem;
+    --component-card--card-body-padding-lg: 1.78rem;
+    --component-card--card-body-padding-sm: 1.33rem;
+
+    --component-input--bottom-margin: 1.78rem;
+    --component-input--border-radius: 0.89rem;
+    --component-input--font-size: 1.78rem;
+    --component-input-label--font-size: 1.6rem;
+
+    --spacing-utility-rem--0-25rem: 0.44rem;
+    --spacing-utility-rem--0-5rem: 0.89rem;
+    --spacing-utility-rem--0-75rem: 1.33rem;
+    --spacing-utility-rem--1rem: 1.78rem;
+    --spacing-utility-rem--1-125rem: 2rem;
+    --spacing-utility-rem--1-25rem: 2.22rem;
+    --spacing-utility-rem--1-5rem: 2.67rem;
+    --spacing-utility-rem--2rem: 3.56rem;
+    --spacing-utility-rem--2-5rem: 4.44rem;
+    --spacing-utility-rem--3rem: 5.33rem;
+    --spacing-utility-rem--3-5rem: 6.22rem;
+    --spacing-utility-rem--4rem: 7.11rem;
+    --spacing-utility-rem--5rem: 8.89rem;
+    --spacing-utility-rem--6rem: 10.67rem;
+    --spacing-utility-rem--7rem: 12.44rem;
+    --spacing-utility-rem--8rem: 14.22rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  :root {
+    --spacing-layout--container-max-width-90: clamp(
+      90rem,
+      0rem + 100vw,
+      160rem
+    );
+
+    --type-body--font-size-lg: clamp(1rem, -0.0029rem + 1.1143vw, 1.78rem);
+    --type-body--font-size-md: clamp(1rem, -0.0029rem + 1.1143vw, 1.78rem);
+    --type-body--font-size-sm: clamp(1rem, -0.0029rem + 1.1143vw, 1.78rem);
+    --type-body--font-size-xs: clamp(1rem, -0.0029rem + 1.1143vw, 1.78rem);
+
+    --type-paragraph-14--font-size-lg: clamp(
+      0.875rem,
+      -0.0057rem + 0.9786vw,
+      1.56rem
+    );
+    --type-paragraph-14--font-size-md: clamp(
+      0.875rem,
+      -0.0057rem + 0.9786vw,
+      1.56rem
+    );
+    --type-paragraph-14--font-size-sm: clamp(
+      0.875rem,
+      -0.0057rem + 0.9786vw,
+      1.56rem
+    );
+    --type-paragraph-14--font-size-xs: clamp(
+      0.875rem,
+      -0.0057rem + 0.9786vw,
+      1.56rem
+    );
+
+    --type-paragraph-18--font-size-lg: clamp(1.125rem, 0rem + 1.25vw, 2rem);
+    --type-paragraph-18--font-size-md: clamp(1.125rem, 0rem + 1.25vw, 2rem);
+    --type-paragraph-18--font-size-sm: clamp(1.125rem, 0rem + 1.25vw, 2rem);
+    --type-paragraph-18--font-size-xs: clamp(1.125rem, 0rem + 1.25vw, 2rem);
+
+    --type-eyebrow--font-size-lg: clamp(
+      1.125rem,
+      -0.2829rem + 1.5643vw,
+      2.22rem
+    );
+    --type-eyebrow--font-size-md: clamp(
+      1.125rem,
+      -0.2829rem + 1.5643vw,
+      2.22rem
+    );
+    --type-eyebrow--font-size-sm: clamp(1rem, -0.0029rem + 1.1143vw, 1.78rem);
+    --type-eyebrow--font-size-xs: clamp(1rem, -0.0029rem + 1.1143vw, 1.78rem);
+
+    --type-h1--font-size-lg: clamp(2.6rem, 0.0029rem + 2.8857vw, 4.62rem);
+    --type-h1--font-size-md: clamp(2.6rem, 0.0029rem + 2.8857vw, 4.62rem);
+    --type-h1--font-size-sm: clamp(2.6rem, 0.0029rem + 2.8857vw, 4.62rem);
+    --type-h1--font-size-xs: clamp(2.4rem, -0.0043rem + 2.6714vw, 4.27rem);
+
+    --type-h2--font-size-lg: clamp(2.6rem, 0.0029rem + 2.8857vw, 4.62rem);
+    --type-h2--font-size-md: clamp(2.6rem, 0.0029rem + 2.8857vw, 4.62rem);
+    --type-h2--font-size-sm: clamp(2.6rem, 0.0029rem + 2.8857vw, 4.62rem);
+    --type-h2--font-size-xs: clamp(2.4rem, -0.0043rem + 2.6714vw, 4.27rem);
+
+    --type-h3--font-size-lg: clamp(2rem, -0.0057rem + 2.2286vw, 3.56rem);
+    --type-h3--font-size-md: clamp(2rem, -0.0057rem + 2.2286vw, 3.56rem);
+    --type-h3--font-size-sm: clamp(2rem, -0.0057rem + 2.2286vw, 3.56rem);
+    --type-h3--font-size-xs: clamp(2rem, -0.0057rem + 2.2286vw, 3.56rem);
+
+    --type-h4--font-size-lg: clamp(1.5rem, -0.0043rem + 1.6714vw, 2.67rem);
+    --type-h4--font-size-md: clamp(1.125rem, -0.2829rem + 1.5643vw, 2.22rem);
+    --type-h4--font-size-sm: clamp(1.125rem, -0.2829rem + 1.5643vw, 2.22rem);
+    --type-h4--font-size-xs: clamp(1.5rem, -0.0043rem + 1.6714vw, 2.67rem);
+
+    --component-button--border-radius: clamp(
+      44rem,
+      0.0029rem + 48.8857vw,
+      78.22rem
+    );
+    --component-card--border-radius: clamp(
+      1rem,
+      -0.0029rem + 1.1143vw,
+      1.78rem
+    );
+    --component-card--card-body-padding-lg: clamp(
+      1rem,
+      -0.0029rem + 1.1143vw,
+      1.78rem
+    );
+    --component-card--card-body-padding-sm: clamp(
+      0.75rem,
+      0.0043rem + 0.8286vw,
+      1.33rem
+    );
+
+    --component-input--bottom-margin: clamp(
+      1rem,
+      -0.0029rem + 1.1143vw,
+      1.78rem
+    );
+    --component-input--border-radius: clamp(
+      0.5rem,
+      -0.0014rem + 0.5571vw,
+      0.89rem
+    );
+    --component-input--font-size: clamp(1rem, -0.0029rem + 1.1143vw, 1.78rem);
+    --component-input-label--font-size: clamp(0.9rem, 0rem + 1vw, 1.6rem);
+
+    --spacing-utility-rem--0-25rem: clamp(
+      0.25rem,
+      0.0057rem + 0.2714vw,
+      0.44rem
+    );
+    --spacing-utility-rem--0-5rem: clamp(
+      0.5rem,
+      -0.0014rem + 0.5571vw,
+      0.89rem
+    );
+    --spacing-utility-rem--0-75rem: clamp(
+      0.75rem,
+      0.0043rem + 0.8286vw,
+      1.33rem
+    );
+    --spacing-utility-rem--1rem: clamp(1rem, -0.0029rem + 1.1143vw, 1.78rem);
+    --spacing-utility-rem--1-125rem: clamp(1.125rem, 0rem + 1.25vw, 2rem);
+    --spacing-utility-rem--1-25rem: clamp(
+      1.125rem,
+      -0.2829rem + 1.5643vw,
+      2.22rem
+    );
+    --spacing-utility-rem--1-5rem: clamp(
+      1.5rem,
+      -0.0043rem + 1.6714vw,
+      2.67rem
+    );
+    --spacing-utility-rem--2rem: clamp(2rem, -0.0057rem + 2.2286vw, 3.56rem);
+    --spacing-utility-rem--2-5rem: clamp(2.5rem, 0.0057rem + 2.7714vw, 4.44rem);
+    --spacing-utility-rem--3rem: clamp(3rem, 0.0043rem + 3.3286vw, 5.33rem);
+    --spacing-utility-rem--3-5rem: clamp(3.5rem, 0.0029rem + 3.8857vw, 6.22rem);
+    --spacing-utility-rem--4rem: clamp(4rem, 0.0014rem + 4.4429vw, 7.11rem);
+    --spacing-utility-rem--5rem: clamp(5rem, -0.0014rem + 5.5571vw, 8.89rem);
+    --spacing-utility-rem--6rem: clamp(6rem, -0.0043rem + 6.6714vw, 10.67rem);
+    --spacing-utility-rem--7rem: clamp(7rem, 0.0057rem + 7.7714vw, 12.44rem);
+    --spacing-utility-rem--8rem: clamp(8rem, 0.0029rem + 8.8857vw, 14.22rem);
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1439px) {
+  :root {
+    /* values to calculate */
+    --spacing-layout--container-max-width-90: 62.05rem;
+
+    --type-body--font-size-lg: 0.69rem;
+    --type-body--font-size-md: 0.69rem;
+    --type-body--font-size-sm: 0.69rem;
+    --type-body--font-size-xs: 0.69rem;
+
+    --type-paragraph-14--font-size-lg: 0.6rem;
+    --type-paragraph-14--font-size-md: 0.6rem;
+    --type-paragraph-14--font-size-sm: 0.6rem;
+    --type-paragraph-14--font-size-xs: 0.6rem;
+
+    --type-paragraph-18--font-size-lg: 0.77rem;
+    --type-paragraph-18--font-size-md: 0.77rem;
+    --type-paragraph-18--font-size-sm: 0.77rem;
+    --type-paragraph-18--font-size-xs: 0.77rem;
+
+    --type-eyebrow--font-size-lg: 0.86rem;
+    --type-eyebrow--font-size-md: 0.86rem;
+    --type-eyebrow--font-size-sm: 0.69rem;
+    --type-eyebrow--font-size-xs: 0.69rem;
+
+    --type-h1--font-size-lg: 1.79rem;
+    --type-h1--font-size-md: 1.79rem;
+    --type-h1--font-size-sm: 1.79rem;
+    --type-h1--font-size-xs: 1.65rem;
+
+    --type-h2--font-size-lg: 1.79rem;
+    --type-h2--font-size-md: 1.79rem;
+    --type-h2--font-size-sm: 1.79rem;
+    --type-h2--font-size-xs: 1.65rem;
+
+    --type-h3--font-size-lg: 1.38rem;
+    --type-h3--font-size-md: 1.38rem;
+    --type-h3--font-size-sm: 1.38rem;
+    --type-h3--font-size-xs: 1.38rem;
+
+    --type-h4--font-size-lg: 1.03rem;
+    --type-h4--font-size-md: 0.86rem;
+    --type-h4--font-size-sm: 0.86rem;
+    --type-h4--font-size-xs: 1.03rem;
+
+    --component-button--border-radius: 30.29rem;
+    --component-card--border-radius: 0.69rem;
+    --component-card--card-body-padding-lg: 0.69rem;
+    --component-card--card-body-padding-sm: 0.52rem;
+
+    --component-input--bottom-margin: 0.69rem;
+    --component-input--border-radius: 0.34rem;
+    --component-input--font-size: 0.69rem;
+    --component-input-label--font-size: 0.62rem;
+
+    --spacing-utility-rem--0-25rem: 0.17rem;
+    --spacing-utility-rem--0-5rem: 0.34rem;
+    --spacing-utility-rem--0-75rem: 0.52rem;
+    --spacing-utility-rem--1rem: 0.69rem;
+    --spacing-utility-rem--1-125rem: 0.77rem;
+    --spacing-utility-rem--1-25rem: 0.86rem;
+    --spacing-utility-rem--1-5rem: 1.03rem;
+    --spacing-utility-rem--2rem: 1.38rem;
+    --spacing-utility-rem--2-5rem: 1.73rem;
+    --spacing-utility-rem--3rem: 2.08rem;
+    --spacing-utility-rem--3-5rem: 2.43rem;
+    --spacing-utility-rem--4rem: 2.78rem;
+    --spacing-utility-rem--5rem: 3.47rem;
+    --spacing-utility-rem--6rem: 4.16rem;
+    --spacing-utility-rem--7rem: 4.85rem;
+    --spacing-utility-rem--8rem: 5.54rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1439px) {
+  :root {
+    --spacing-layout--container-max-width-90: clamp(
+      62.05rem,
+      0.0223rem + 100.0447vw,
+      90rem
+    );
+
+    --type-body--font-size-lg: clamp(0.69rem, 0.002rem + 1.1096vw, 1rem);
+    --type-body--font-size-md: clamp(0.69rem, 0.002rem + 1.1096vw, 1rem);
+    --type-body--font-size-sm: clamp(0.69rem, 0.002rem + 1.1096vw, 1rem);
+    --type-body--font-size-xs: clamp(0.69rem, 0.002rem + 1.1096vw, 1rem);
+
+    --type-paragraph-14--font-size-lg: clamp(
+      0.6rem,
+      -0.0103rem + 0.9843vw,
+      0.875rem
+    );
+    --type-paragraph-14--font-size-md: clamp(
+      0.6rem,
+      -0.0103rem + 0.9843vw,
+      0.875rem
+    );
+    --type-paragraph-14--font-size-sm: clamp(
+      0.6rem,
+      -0.0103rem + 0.9843vw,
+      0.875rem
+    );
+    --type-paragraph-14--font-size-xs: clamp(
+      0.6rem,
+      -0.0103rem + 0.9843vw,
+      0.875rem
+    );
+
+    --type-paragraph-18--font-size-lg: clamp(
+      0.77rem,
+      -0.0178rem + 1.2707vw,
+      1.125rem
+    );
+    --type-paragraph-18--font-size-md: clamp(
+      0.77rem,
+      -0.0178rem + 1.2707vw,
+      1.125rem
+    );
+    --type-paragraph-18--font-size-sm: clamp(
+      0.77rem,
+      -0.0178rem + 1.2707vw,
+      1.125rem
+    );
+    --type-paragraph-18--font-size-xs: clamp(
+      0.77rem,
+      -0.0178rem + 1.2707vw,
+      1.125rem
+    );
+
+    --type-eyebrow--font-size-lg: clamp(0.86rem, -0.0055rem + 1.396vw, 1.25rem);
+    --type-eyebrow--font-size-md: clamp(0.86rem, -0.0055rem + 1.396vw, 1.25rem);
+    --type-eyebrow--font-size-sm: clamp(0.69rem, 0.002rem + 1.1096vw, 1rem);
+    --type-eyebrow--font-size-xs: clamp(0.69rem, 0.002rem + 1.1096vw, 1rem);
+
+    --type-h1--font-size-lg: clamp(1.79rem, -0.0076rem + 2.8993vw, 2.6rem);
+    --type-h1--font-size-md: clamp(1.79rem, -0.0076rem + 2.8993vw, 2.6rem);
+    --type-h1--font-size-sm: clamp(1.79rem, -0.0076rem + 2.8993vw, 2.6rem);
+    --type-h1--font-size-xs: clamp(1.65rem, -0.0144rem + 2.6846vw, 2.4rem);
+
+    --type-h2--font-size-lg: clamp(1.79rem, -0.0076rem + 2.8993vw, 2.6rem);
+    --type-h2--font-size-md: clamp(1.79rem, -0.0076rem + 2.8993vw, 2.6rem);
+    --type-h2--font-size-sm: clamp(1.79rem, -0.0076rem + 2.8993vw, 2.6rem);
+    --type-h2--font-size-xs: clamp(1.65rem, -0.0144rem + 2.6846vw, 2.4rem);
+
+    --type-h3--font-size-lg: clamp(1.38rem, 0.0041rem + 2.2192vw, 2rem);
+    --type-h3--font-size-md: clamp(1.38rem, 0.0041rem + 2.2192vw, 2rem);
+    --type-h3--font-size-sm: clamp(1.38rem, 0.0041rem + 2.2192vw, 2rem);
+    --type-h3--font-size-xs: clamp(1.38rem, 0.0041rem + 2.2192vw, 2rem);
+
+    --type-h4--font-size-lg: clamp(1.03rem, -0.013rem + 1.6823vw, 1.5rem);
+    --type-h4--font-size-md: clamp(0.86rem, -0.0055rem + 1.396vw, 1.25rem);
+    --type-h4--font-size-sm: clamp(0.86rem, -0.0055rem + 1.396vw, 1.25rem);
+    --type-h4--font-size-xs: clamp(1.03rem, -0.013rem + 1.6823vw, 1.5rem);
+
+    --component-button--border-radius: clamp(
+      30rem,
+      -1.0694rem + 50.1119vw,
+      44rem
+    );
+    --component-card--border-radius: clamp(0.69rem, 0.002rem + 1.1096vw, 1rem);
+    --component-card--card-body-padding-lg: clamp(
+      0.69rem,
+      0.002rem + 1.1096vw,
+      1rem
+    );
+    --component-card--card-body-padding-sm: clamp(
+      0.5rem,
+      -0.0548rem + 0.8949vw,
+      0.75rem
+    );
+
+    --component-input--bottom-margin: clamp(0.69rem, 0.002rem + 1.1096vw, 1rem);
+    --component-input--border-radius: clamp(
+      0.34rem,
+      -0.0151rem + 0.5727vw,
+      0.5rem
+    );
+    --component-input--font-size: clamp(0.69rem, 0.002rem + 1.1096vw, 1rem);
+    --component-input-label--font-size: clamp(
+      0.9rem,
+      1.5214rem + -1.0022vw,
+      0.62rem
+    );
+
+    --spacing-utility-rem--0-25rem: clamp(
+      0.17rem,
+      -0.0075rem + 0.2864vw,
+      0.25rem
+    );
+    --spacing-utility-rem--0-5rem: clamp(
+      0.34rem,
+      -0.0151rem + 0.5727vw,
+      0.5rem
+    );
+    --spacing-utility-rem--0-75rem: clamp(
+      0.5rem,
+      -0.0548rem + 0.8949vw,
+      0.75rem
+    );
+    --spacing-utility-rem--1rem: clamp(0.69rem, 0.002rem + 1.1096vw, 1rem);
+    --spacing-utility-rem--1-125rem: clamp(
+      0.77rem,
+      -0.0178rem + 1.2707vw,
+      1.125rem
+    );
+    --spacing-utility-rem--1-25rem: clamp(
+      0.86rem,
+      -0.0055rem + 1.396vw,
+      1.25rem
+    );
+    --spacing-utility-rem--1-5rem: clamp(1.03rem, -0.013rem + 1.6823vw, 1.5rem);
+    --spacing-utility-rem--2rem: clamp(1.38rem, 0.0041rem + 2.2192vw, 2rem);
+    --spacing-utility-rem--2-5rem: clamp(1.73rem, 0.0212rem + 2.7562vw, 2.5rem);
+    --spacing-utility-rem--3rem: clamp(2.08rem, 0.0383rem + 3.2931vw, 3rem);
+    --spacing-utility-rem--3-5rem: clamp(2.43rem, 0.0554rem + 3.83vw, 3.5rem);
+    --spacing-utility-rem--4rem: clamp(2.78rem, 0.0725rem + 4.3669vw, 4rem);
+    --spacing-utility-rem--5rem: clamp(3.47rem, 0.0746rem + 5.4765vw, 5rem);
+    --spacing-utility-rem--6rem: clamp(4.16rem, 0.0766rem + 6.5861vw, 6rem);
+    --spacing-utility-rem--7rem: clamp(4.85rem, 0.0786rem + 7.6957vw, 7rem);
+    --spacing-utility-rem--8rem: clamp(5.54rem, 0.0807rem + 8.8054vw, 8rem);
+  }
+}
