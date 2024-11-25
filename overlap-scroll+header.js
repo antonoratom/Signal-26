@@ -1,4 +1,5 @@
-// Function to check the aspect ratio of the screen
+let resizeTimeout; // Variable to hold the timeout ID
+
 function checkAspectRatio() {
   const width = window.innerWidth; // Get the width of the window
   const height = window.innerHeight; // Get the height of the window
@@ -9,6 +10,24 @@ function checkAspectRatio() {
   if (aspectRatio > 1.72) {
     // Function to calculate viewport height percentage
     const vh = (coef) => window.innerHeight * (coef / 100);
+
+    // Initialize GSAP animations with ScrollTrigger
+    $("[hero-section-overlap-trigger]").each(function () {
+      let heroStickyBl = gsap.timeline({
+        scrollTrigger: {
+          trigger: $(this),
+          start: () => "top+=" + vh(100) + " bottom",
+          end: () => "top+=" + vh(200) + " bottom",
+          scrub: true,
+          markers: true,
+        },
+      });
+
+      heroStickyBl.to($(this).find("[hero-section-overlap-target]"), {
+        y: "100vh",
+        ease: "linear",
+      });
+    });
 
     // Initialize GSAP animations with ScrollTrigger
     $("[section-overlap-trigger]").each(function () {
@@ -58,18 +77,33 @@ function checkAspectRatio() {
   }
 }
 
-// Run the check when the window loads
-window.onload = checkAspectRatio;
+// Run the checkAspectRatio function on page load
+checkAspectRatio();
 
-// Optionally, check on window resize
-window.onresize = checkAspectRatio;
+// Add an event listener to check the aspect ratio on window resize
+window.addEventListener("resize", () => {
+  // Clear the previous timeout if it exists
+  clearTimeout(resizeTimeout);
+
+  // Set a new timeout to reload the page after 1.5 seconds
+  resizeTimeout = setTimeout(() => {
+    console.log("Reloading the page due to resize...");
+    location.reload(); // Reload the page
+  }, 1500);
+
+  // Call the checkAspectRatio function to re-evaluate the aspect ratio
+  checkAspectRatio();
+});
 
 // Function to handle scroll event
 const headerBgWrap = document.querySelector(".nav-bg_wrap");
+const headerLinks = document.querySelector(".container.for-header");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 100) {
     headerBgWrap.style.opacity = "1"; // 100% opacity
+    headerLinks.style.color = "var(--colors-all--white) !important";
   } else {
     headerBgWrap.style.opacity = "0"; // or set to your desired opacity
+    headerLinks.style.color = "inherit";
   }
 });
