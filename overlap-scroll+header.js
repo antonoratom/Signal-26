@@ -19,7 +19,7 @@ function checkAspectRatio() {
           start: () => "top+=" + vh(100) + " bottom",
           end: () => "top+=" + vh(200) + " bottom",
           scrub: true,
-          markers: true,
+          // markers: true,
         },
       });
 
